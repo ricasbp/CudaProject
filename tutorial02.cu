@@ -6,7 +6,7 @@ using namespace std;
 
 /* Our Kernel*/
 __global__ void AddIntsCUDA(int* a, int *b){
-a[0] += b[0];
+    a[0] += b[0];
 }
 
 int main(){
